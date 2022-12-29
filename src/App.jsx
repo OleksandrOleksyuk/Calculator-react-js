@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Navbar, Header, Main, Footer } from "./Components/index";
+import "./index.css";
 const App = () => {
   const [darkToggle, setDarkToggle] = useState(true);
   return (
